@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simen game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon game</h1>
+    <h2>PRESS ANY KEY TO START THE GAME</h2>
+    <h3 class="hscore">HIGHEST SCORE :</h3>
+
+    <div class="btn_container">
+        <div class="line_one">
+            <div class="btn red" type = "button" id="red"></div>
+            <div class="btn yellow" type = "button" id="yellow"></div>
+        </div>
+        <div class="line_two">
+            <div class="btn green" type = "button" id="green"></div>
+            <div class="btn purple" type = "button" id="purple"></div>
+        </div>
+        
+    </div>
+
+    <div class="rules">
+        <h3>
+            Rules: <br>
+            => You are only able to play in pc or laptop. <br>
+            => At the start of the game, one of the four keys lights up randomly when you click on any keyboard button. <br>
+            => The player must press the same key. <br>
+            => The Simon turns back the same light on and a second one, again randomly. <br>
+            => The player has to reproduce this chain of light using their memory. <br></h3>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
